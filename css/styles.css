@@ -26,17 +26,15 @@ a {
 header {
   background-color: #fff;
   display: flex;
-  padding-left: 200px;
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding: 20px 0 15px 200px;
   border-bottom: 1px solid #e7e9fc;
+  flex-direction: row;
 }
 
 .container {
-  width: 1440px;
-  height: 3300px;
-  top: -1169px;
-  left: 370px;
+  margin: 0 auto;
+  padding: 0 auto;
+  min-width: 100vh;
 }
 
 .list-design {
@@ -84,7 +82,6 @@ header {
   line-height: 1.2;
   letter-spacing: 2%;
   width: 496px;
-  height: 120px;
   top: 260px;
   left: 472px;
 }
@@ -94,15 +91,11 @@ header {
   border: none;
   color: white;
   cursor: pointer;
-  width: 169;
-  height: 56;
+  width: 169px;
   top: 428px;
   left: 636px;
   border-radius: 4px;
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-left: 32px;
+  padding: 16px 32px 16px 32px;
 }
 
 .btn:focus,
@@ -110,17 +103,24 @@ header {
   background-color: #404bbf;
 }
 
+.section {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  vertical-align: middle;
+}
+
 /* First Section */
 .first-section {
   background-color: #fff;
+  padding: 120px 100px;
 }
 
 .first-section-list {
   display: flex;
+  flex-direction: row;
   list-style: none;
-  margin: 0px;
   gap: 8px;
-  padding: 150px;
   letter-spacing: 2%;
 }
 .card-bottom h3,
@@ -142,9 +142,9 @@ header {
 .team {
   background-color: #f4f4fd;
   text-align: center;
-  padding: 5%;
   letter-spacing: 2%;
   line-height: 1.25;
+  padding: 120px 0;
 }
 
 .portfolio h2,
@@ -158,13 +158,11 @@ header {
 
 .team-list {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   list-style: none;
-  margin: 0px;
   margin-top: 5%;
   gap: 40px;
-  padding: 16px 32px;
-  padding-left: 6%;
+  justify-content: center;
 }
 
 .card {
@@ -179,10 +177,9 @@ header {
 
 .portfolio {
   background-color: #fff;
-  padding: 5%;
-  margin: 0;
   letter-spacing: 2%;
   line-height: 2;
+  padding: 120px 20px;
 }
 
 .portfolio-list {
@@ -190,21 +187,24 @@ header {
   grid-template-columns: repeat(3, 1fr); /* 3 sütun */
   gap: 24px; /* öğeler arası boşluk */
   list-style: none;
-  padding: 150px;
-  margin: 0%;
+  justify-content: center;
+  padding: 5%;
 }
 
 .portfolio-card {
-  border: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-card-bottom {
-  padding: 5%;
+  width: 360px;
+  padding: 32px 16px 32px 16px;
+  gap: 8px;
 }
 /* Footer */
 .footer {
   background-color: #2e2f42;
-  padding: 7%;
+  padding: 100px 0;
+  padding-left: 156px;
 }
 
 .footer p {
@@ -214,7 +214,8 @@ header {
   letter-spacing: 2%;
   color: #f4f4fd;
   width: 264px;
-  height: 72px;
   top: 3128px;
   left: 156px;
+  display: flex;
+  flex-direction: row;
 }
