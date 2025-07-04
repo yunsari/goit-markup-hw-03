@@ -1,0 +1,220 @@
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  color: black;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  display: flex;
+  padding-left: 200px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+  width: 1440px;
+  height: 3300px;
+  top: -1169px;
+  left: 370px;
+}
+
+.list-design {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding-left: 100px;
+}
+
+.list-design > li > a {
+  color: #2e2f42;
+  font-weight: 500;
+}
+.second-list-design {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding-left: 300px;
+}
+
+.second-list-design > li > a {
+  color: #434455;
+  font-weight: 400;
+}
+
+.second-list-design > li > a:focus,
+.second-list-design > li > a:hover,
+.list-design > li > a:focus,
+.list-design > li > a:hover {
+  color: #404bbf;
+}
+
+/* Hero Section */
+.hero {
+  padding: 150px 0;
+  text-align: center;
+  background: #2e2f42;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0 auto 30px;
+  color: #fff;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  width: 496px;
+  height: 120px;
+  top: 260px;
+  left: 472px;
+}
+
+.btn {
+  background-color: #4d5ae5;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 169;
+  height: 56;
+  top: 428px;
+  left: 636px;
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #404bbf;
+}
+
+/* First Section */
+.first-section {
+  background-color: #fff;
+}
+
+.first-section-list {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  gap: 8px;
+  padding: 150px;
+  letter-spacing: 2%;
+}
+.card-bottom h3,
+.portfolio-card h3,
+.first-section-list > li > h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card-bottom p,
+.first-section-list > li > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+/* Our Team */
+.team {
+  background-color: #f4f4fd;
+  text-align: center;
+  padding: 5%;
+  letter-spacing: 2%;
+  line-height: 1.25;
+}
+
+.portfolio h2,
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  margin-top: 5%;
+  gap: 40px;
+  padding: 16px 32px;
+  padding-left: 6%;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 5px 15px #2e2f4229;
+}
+
+.card-bottom {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.portfolio {
+  background-color: #fff;
+  padding: 5%;
+  margin: 0;
+  letter-spacing: 2%;
+  line-height: 2;
+}
+
+.portfolio-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+  gap: 24px; /* öğeler arası boşluk */
+  list-style: none;
+  padding: 150px;
+  margin: 0%;
+}
+
+.portfolio-card {
+  border: 1px solid #e7e9fc;
+}
+
+.portfolio-card-bottom {
+  padding: 5%;
+}
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+  padding: 7%;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #f4f4fd;
+  width: 264px;
+  height: 72px;
+  top: 3128px;
+  left: 156px;
+}
