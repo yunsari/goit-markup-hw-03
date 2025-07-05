@@ -32,8 +32,8 @@ header {
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0;
+  padding: 0;
   min-width: 100vh;
 }
 
@@ -80,7 +80,7 @@ header {
   margin: 0 auto 30px;
   color: #fff;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 2;
   width: 496px;
   top: 260px;
   left: 472px;
@@ -121,7 +121,7 @@ header {
   flex-direction: row;
   list-style: none;
   gap: 8px;
-  letter-spacing: 2%;
+  letter-spacing: 2;
 }
 .card-bottom h3,
 .portfolio-card h3,
@@ -135,14 +135,14 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 2;
 }
 
 /* Our Team */
 .team {
   background-color: #f4f4fd;
   text-align: center;
-  letter-spacing: 2%;
+  letter-spacing: 2;
   line-height: 1.25;
   padding: 120px 0;
 }
@@ -152,7 +152,7 @@ header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.25;
-  letter-spacing: 2%;
+  letter-spacing: 2;
   text-align: center;
 }
 
@@ -177,7 +177,7 @@ header {
 
 .portfolio {
   background-color: #fff;
-  letter-spacing: 2%;
+  letter-spacing: 2;
   line-height: 2;
   padding: 120px 20px;
 }
@@ -191,14 +191,10 @@ header {
   padding: 5%;
 }
 
-.portfolio-card {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .portfolio-card-bottom {
-  width: 360px;
-  padding: 32px 16px 32px 16px;
-  gap: 8px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 /* Footer */
 .footer {
@@ -211,7 +207,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 2;
   color: #f4f4fd;
   width: 264px;
   top: 3128px;
